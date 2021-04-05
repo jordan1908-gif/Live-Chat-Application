@@ -25,7 +25,7 @@ Fully responsive live chat system build with PHP, JavaScript and mySQL as back-e
 -----
 
 <div align="center">
-  <h2>Login Page</h2>
+  <h2>Multiple User Login</h2>
 <img src="php/images/signin.gif" alt="gif">
 </div>
 
