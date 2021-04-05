@@ -8,11 +8,10 @@ Fully responsive live chat system build with PHP, JavaScript and mySQL as back-e
 
 2. Import  [chatapp.sql](/Live-Chat-Application/sql/chatapp.sql) to phpMyAdmin. 
 
-3. Run the program using local host in default browser.
+3. Run the program using local host in preferred browser.
 
 4. Please take note that Port 3308 is being used within the config (connection) folder.
 
-5. Run the system using your preferred browser.
 
 ## Screenshot (Customer ONLY)
 
