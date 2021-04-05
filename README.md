@@ -13,13 +13,13 @@ Fully responsive live chat system build with PHP, JavaScript and mySQL as back-e
 4. Please take note that Port 3308 is being used within the config (connection) folder.
 
 
-## Screenshot (Customer ONLY)
+## Demo
 
 -----
 
 <div align="center">
-  <h2>Home Page</h2>
-<img src="images/homepage.png" alt="image">
+  <h2>Sign Up</h2>
+<img src="php/images/signup.gif" alt="gif">
 </div>
 
 -----
@@ -32,34 +32,8 @@ Fully responsive live chat system build with PHP, JavaScript and mySQL as back-e
 -----
 
 <div align="center">
-  <h2>User Roles</h2>
-<img src="images/user.PNG" alt="image">
+  <h2>Live Chat</h2>
+<img src="php/images/chatting.gif" alt="gif">
 </div>
 
------
 
-<div align="center">
-  <h2>Menu</h2>
-<img src="images/menu.PNG" alt="image">
-</div>
-
------
-
-<div align="center">
-  <h2>Shopping Cart</h2>
-<img src="images/cart.PNG" alt="image">
-</div>
-
------
-
-<div align="center">
-  <h2>Checkout</h2>
-<img src="images/scheckout.PNG" alt="image">
-</div>
-
------
-
-<div align="center">
-  <h2>Order Status & History</h2>
-<img src="images/sorderhistory.PNG" alt="image">
-</div>
