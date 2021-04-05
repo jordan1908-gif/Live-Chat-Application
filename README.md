@@ -1,5 +1,5 @@
 # Live-Chat-Application
-Fully responsive live chat system build with PHP, JavaScript and mySQL as back-end database. Multiple users are able to communicate with each other at the same time by utilizing this system. The system can be integrated into various occations eg: Support System, Enquiry System, E-Commerce Helpdesk.
+Fully responsive live chat system build with PHP, JavaScript and mySQL as back-end database. Multiple users are able to communicate with each other at the same time by utilizing the "Search User" feature within the system. This application can be integrated into various occations eg: Support System, Enquiry System, E-Commerce Helpdesk.
 <br>
 
 
