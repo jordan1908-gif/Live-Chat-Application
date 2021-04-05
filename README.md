@@ -1,8 +1,6 @@
 # Live-Chat-Application
-Fully responsive live chat system build with PHP, JavaScript and mySQL as back-end database. Multiple users are able to communicate with each other at the same time by utilizing this system. The system can be integrated into various occations eg: Support System, Enquiry System, E-Commerce Helpdesk.<br>
-Note: Port 3308 is being used for configuration. 
-<br><br>
-
+Fully responsive live chat system build with PHP, JavaScript and mySQL as back-end database. Multiple users are able to communicate with each other at the same time by utilizing this system. The system can be integrated into various occations eg: Support System, Enquiry System, E-Commerce Helpdesk.
+<br>
 
 
 ## Getting Started
@@ -12,7 +10,9 @@ Note: Port 3308 is being used for configuration.
 
 3. Run the program using local host in default browser.
 
-4. Run the system using your preferred browser.
+4. Please take note that Port 3308 is being used within the config (connection) folder.
+
+5. Run the system using your preferred browser.
 
 ## Screenshot (Customer ONLY)
 
