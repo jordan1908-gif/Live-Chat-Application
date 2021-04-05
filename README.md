@@ -1,53 +1,18 @@
 # Live-Chat-Application
-It is an E-Commerce/ Food Ordering System for customers to order food and drinks through the online website. Website is coded in PHP, HTML, CSS, JavaScript, AJAX & Bootstrap. <br><br>
-Note: Only the home page is fully responsive.
-
-* Customer
-  <br> •	Login or create an account
-•	Verify account through registered email
-•	Retrieve forgotten password through registered email
-•	View a short introductory of the bakery shop.
-•	View cakes and milk tea that are available in the menu
-•	Add items into cart
-•	Remove items from cart
-•	Checkout and make payment
-• View Delivery Status
-•	View Order History
-•	Logout from account
- 
-* Staff 
-  <br> •	Login into account
-• View profile
-•	View orders placed by customers 
-• Update customer's order status
-•	Remove sold out items
-•	Modify menu price
-• Update daily sales
-• Update chatbot system
-•	Logout from account
-
-* Owner
-  <br> •	Login into account
-•	Add new items into menu
-• View customer profile
-• Update own profile
-•	View all orders placed by customers
-• View daily sales in bar chart form
-• View profit in line chart form
-•	Logout from account
-
-
+Fully responsive live chat system build with PHP, JavaScript and mySQL as back-end database. Multiple users are able to communicate with each other at the same time by utilizing this system. The system can be integrated into various occations eg: Support System, Enquiry System, E-Commerce Helpdesk.<br>
+Note: Port 3308 is being used for configuration. 
+<br><br>
 
 
 
 ## Getting Started
 1. Install  [WAMP](https://www.wampserver.com/en/download-wampserver-64bits/) for MySQL server.
 
-2. Import  [cartsystem.sql](/Online-Food-Ordering-System/cartsystem.sql) to phpMyAdmin. 
+2. Import  [chatapp.sql](/Live-Chat-Application/sql/chatapp.sql) to phpMyAdmin. 
 
 3. Run the program using local host in default browser.
 
-4. Enter localhost/Online-Food-Ordering-System/php/homepage.php. 
+4. Run the system using your preferred browser.
 
 ## Screenshot (Customer ONLY)
 
