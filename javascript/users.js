@@ -1,16 +1,7 @@
 const searchBar = document.querySelector(".search input"),
-searchIcon = document.querySelector(".search button"),
+
 usersList = document.querySelector(".users-list");
 
-searchIcon.onclick = ()=>{
-  searchBar.classList.toggle("show");
-  searchIcon.classList.toggle("active");
-  searchBar.focus();
-  if(searchBar.classList.contains("active")){
-    searchBar.value = "";
-    searchBar.classList.remove("active");
-  }
-}
 
 searchBar.onkeyup = ()=>{
   let searchTerm = searchBar.value;
@@ -32,8 +23,11 @@ searchBar.onkeyup = ()=>{
   xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xhr.send("searchTerm=" + searchTerm);
 }
+$( document ).ready(function() {
+  refrechuser();
 
-setInterval(() =>{
+});
+function refrechuser() {
   let xhr = new XMLHttpRequest();
   xhr.open("GET", "php/users.php", true);
   xhr.onload = ()=>{
@@ -47,5 +41,8 @@ setInterval(() =>{
     }
   }
   xhr.send();
-}, 500);
+}
+setInterval(() =>{
+  refrechuser(); 
+}, 300000);
 

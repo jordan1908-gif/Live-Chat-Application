@@ -25,6 +25,7 @@ sendBtn.onclick = ()=>{
           if(xhr.status === 200){
               inputField.value = "";
               scrollToBottom();
+              refrech();
           }
       }
     }
@@ -39,7 +40,7 @@ chatBox.onmouseleave = ()=>{
     chatBox.classList.remove("active");
 }
 
-setInterval(() =>{
+function refrech() {
     let xhr = new XMLHttpRequest();
     xhr.open("POST", "php/get-chat.php", true);
     xhr.onload = ()=>{
@@ -55,9 +56,19 @@ setInterval(() =>{
     }
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhr.send("incoming_id="+incoming_id);
-}, 500);
+}
+$( document ).ready(function() {
+    refrech();
+    scrollToBottom();
+});
+setInterval(() =>{
+    refrech();
+}, 5000);
 
+chatBox.scrollTop = chatBox.scrollHeight;
+chatBox.scrollTop = chatBox.scrollToBottom;
 function scrollToBottom(){
-    chatBox.scrollTop = chatBox.scrollHeight;
+    chatBox.scrollTop = chatBox.scrollToBottom;
+    chatBox.scrollTop = 10;
   }
   

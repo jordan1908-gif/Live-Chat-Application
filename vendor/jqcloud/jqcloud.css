@@ -1,0 +1,47 @@
+/* fonts */
+
+div.jqcloud {
+  font-size: .6rem;
+  line-height: normal;
+}
+
+div.jqcloud a {
+  font-size: inherit;
+  text-decoration: none;
+}
+
+div.jqcloud span.w10 { font-size: 2.5rem; }
+div.jqcloud span.w9 { font-size: 2.3rem; }
+div.jqcloud span.w8 { font-size: 2rem; }
+div.jqcloud span.w7 { font-size: 1.7rem; }
+div.jqcloud span.w6 { font-size: 1.5rem; }
+div.jqcloud span.w5 { font-size: 1.3rem; }
+div.jqcloud span.w4 { font-size: 1rem; }
+div.jqcloud span.w3 { font-size: .9rem; }
+div.jqcloud span.w2 { font-size: .8rem; }
+div.jqcloud span.w1 { font-size: .7rem }
+
+/* colors */
+
+div.jqcloud { color: #01902d; }
+div.jqcloud a { color: #00651f; }
+div.jqcloud span.w10 { color: #01902d}
+div.jqcloud span.w9 { color: #00651f; }
+div.jqcloud span.w8 { color: #1db54b; }
+div.jqcloud span.w7 { color: #35cc62; }
+div.jqcloud span.w6 { color: #58e081; }
+div.jqcloud span.w5 { color: #58e081; }
+div.jqcloud span.w4 { color: #a0f9bb; }
+div.jqcloud span.w3 { color: #17672f; }
+div.jqcloud span.w2 { color: #629a73; }
+div.jqcloud span.w1 { color: #111111; }
+
+
+/* layout */
+
+div.jqcloud {
+  overflow: hidden;
+  position: relative;
+}
+
+div.jqcloud span { padding: 0; }
