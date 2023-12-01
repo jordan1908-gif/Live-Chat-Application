@@ -15,15 +15,27 @@
         ($row['status'] == "Offline now") ? $offline = "offline" : $offline = "";
         ($outgoing_id == $row['unique_id']) ? $hid_me = "hide" : $hid_me = "";
 
-        $output .= '<a href="chat.php?user_id='. $row['unique_id'] .'">
-                    <div class="content">
-                    <img src="php/images/'. $row['img'] .'" alt="">
-                    <div class="details">
-                        <span>'. $row['fname']. " " . $row['lname'] .'</span>
-                        <p>'. $you . $msg .'</p>
-                    </div>
-                    </div>
-                    <div class="status-dot '. $offline .'"><i class="fas fa-circle"></i></div>
-                </a>';
+        $output .= '
+        <li class="person" data-chat="person4">
+                                                            <div class="user">
+                                                            <a href="chatusers.php?user_id='. $row['unique_id'] .'" >
+                                                             <img src="php/images/'. $row['img'] .'" alt=""  >
+                                                                <span class="status '. $offline .'"></span>
+                                                                </a>
+                                                            </div>
+                                                            <p >
+                                                            <a href="chatusers.php?user_id='. $row['unique_id'] .'" style="padding-bottom: 0px;
+                                                            margin-bottom: 0px;
+                                                            padding-right: 0px;
+                                                            border-bottom-color: transparent;">
+                                                             <span class="name" style="    font-size: 18px;
+                                                             font-weight: 700;">'.  ucfirst($row['fname']). " " .  ucfirst($row['lname']) .'</span>
+                                                            
+
+                                                             </a>
+                                                             <span class="time">'.$row['status'].'</span>
+                                                            </p>
+                                                            </li>
+    ';
     }
 ?>
